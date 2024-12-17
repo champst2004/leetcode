@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/intersection-of-two-arrays/description/
+
 class Solution:
     def intersection(self, nums1: list[int], nums2: list[int]) -> list[int]:
         s1 = set(nums1)
