@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/search-insert-position/description
 
-lass Solution {
+class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
         int l = 0;
