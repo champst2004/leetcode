@@ -11,6 +11,8 @@ public:
             count[fruits[i]]++;
             while(count.size() > 2){
                 count[fruits[j]]--;
+                if(count[fruits[j]] == 0) count.erase(fruits[j]);
+                j++;
             }
             maxLen = max(maxLen, i - j + 1);
         }
